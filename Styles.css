@@ -1,6 +1,7 @@
 body {
     background-color: #fffbf7;
     margin: 0px;
+    text-align: center;
 }
 
 h1 {
@@ -25,6 +26,6 @@ button {
 }
 
 img {
-    width: 900px;
+    width: 1200px;
 }
 
