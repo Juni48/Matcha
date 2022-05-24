@@ -1,19 +1,24 @@
 body {
     background-color: #fffbf7;
     margin: 0px;
-    text-align: center;
 }
 
 h1 {
     color: #025157;
+    font-family: Alegreya;
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .stilo1 {
     color: #46484c;
+    margin-bottom: 5px;
 }
 
 p {
     color: #8b8b8bcc;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 button {
@@ -21,11 +26,76 @@ button {
     background-color: #025157;
 }
 
-.imgstyle {
-    width: 250px;
-}
-
 img {
-    width: 1200px;
+    width: 100%;
 }
 
+.imgstyle {
+    width: 30%;
+}
+
+.imgstyle2 {
+    width: 70%;
+}
+
+.stilo2 {
+    margin-top: 5px;
+}
+
+.main {
+    text-align: center;
+}
+
+.header li {
+    display: inline;
+    margin: 0px 15px;
+}
+.header ul {
+    padding: 0;
+}
+.header{
+    margin: 40px 20px 0;
+    font-size: 0;
+}
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+}
+header a .Logo_matcha {
+    width: 50px;
+}
+
+.Imagen_Matcha {
+        width: 20%;
+}
+
+.navbar {
+    width: 60%;
+    text-align: center;
+    color: #025157;
+    font-weight: 600;
+}
+
+
+.actions {
+    width: 20%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.boton2 {
+    background-color: green;
+    padding: 15px 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: green;
+}
+ .Sign_in {
+     padding: 0px 20px 0px 0px;
+     color: green;
+     text-decoration: none;
+ }
