@@ -1,9 +1,10 @@
 body {
     background-color: #fffbf7;
     margin: 0px;
+    font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
+.Estilo_titulo2 {
     color: #025157;
     font-family: Alegreya;
     font-size: 48px;
@@ -21,7 +22,7 @@ p {
     margin-bottom: 5px;
 }
 
-button {
+.Boton_3 {
     color: #fffbf7;
     background-color: #025157;
 }
@@ -99,3 +100,34 @@ header a .Logo_matcha {
      color: green;
      text-decoration: none;
  }
+
+.Publish {
+    width: 70%;
+    display: flex;
+    margin: 10em auto;
+    align-items: flex-start;
+}
+
+.Publish .article .Estilo_titulo {
+    color: #025157;
+    font-family: Alegreya;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 0;
+}
+
+.Publish .video {
+    flex: 1;
+}
+
+.Publish .video .video_contenedor {
+    width: 90%;
+}
+.Publish .video .cuadro_video {
+    width: 100%;
+}
+
+.article {
+    flex: 1;
+}
+
