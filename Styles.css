@@ -7,7 +7,7 @@ body {
 
 .Estilo_titulo2 {
     color: #025157;
-    font-family: Alegreya;
+    font-family: "Alegreya";
     font-size: 48px;
     font-weight: 900;
 }
@@ -99,15 +99,15 @@ header a .Logo_matcha {
 }
 
 .boton2 {
-    background-color: green;
+    background-color: #a1d683;
     padding: 15px 10px;
     border-radius: 10px;
     border-width: 1px;
-    border-color: green;
+    border-color: #a1d683;
 }
  .Sign_in {
      padding: 0px 20px 0px 0px;
-     color: green;
+     color: #a1d683;
      text-decoration: none;
  }
 
@@ -195,3 +195,210 @@ header a .Logo_matcha {
     margin-bottom: 2rem;
 
 }
+
+.seccion_verde {
+    display: flex;
+    background-color: #a1d683;
+    height: 30rem;
+    padding: 10% 15%;
+    justify-content: space-around;
+}
+
+.seccion_verde .seccion_izq {
+    flex: 3;
+    margin: 7rem;
+}
+.seccion_verde .seccion_izq .titulo {
+    font-family: "Alegreya";
+    color: #025157;
+    font-size: 3rem;
+    margin-bottom: .5rem;
+}
+.seccion_verde .seccion_izq .parrafo {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.seccion_verde .seccion_izq .button {
+    background-color: #025157;
+    color: white;
+    padding: .5rem;
+    border-radius: .5rem;
+    font-weight: 700;
+}
+
+.seccion_verde .Cont_img {
+    margin-left: 0;
+}
+
+.seccion_verde .seccion_izq .img {
+    width: 27rem;
+    
+}
+
+.seccion_verde .seccion_der {
+    flex: 1;
+    width: 10rem;
+    background-color: white;
+    border-radius: 1rem;
+    height: 40rem;
+    overflow: hidden;
+}
+
+.seccion_verde .seccion_der .cont_img {
+    margin: 0;
+
+}
+
+.seccion_verde .seccion_der .cont_bottom {
+    padding: .5rem 1rem;
+}
+
+.seccion_verde .seccion_der .titulo_der {
+    font-family: "Alegreya";
+    color: #025157;
+}
+
+.seccion_verde .seccion_der .parrafo_der {
+    color: #46484c;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.seccion_verde .seccion_der .Iconillo_der {
+    width: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Howmatchawork {
+    text-align: center;
+    padding: 5% 10%;
+}
+
+.Howmatchawork .cont_top {
+    grid-column: 1/5;
+    text-align: center;
+    height: 10rem;
+    margin-top: 0;
+    margin-bottom: 5rem;
+}
+
+.Simple_formula {
+    text-decoration: none;
+    color: #a1d683;
+}
+
+
+.Howmatchawork .cont_top .ti_top {
+    color: #025157;
+    font-family: "Alegreya";
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.Howmatchawork .cont_top .pa_top {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.Howmatchawork .cont_top .but_top {
+    background-color: #025157;
+    color: white;
+    padding: .7rem;
+    border-radius: .5rem;
+    font-weight: 700;
+}
+
+.Howmatchawork .container2  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 40rem;
+    gap: 2rem;
+}
+
+.Howmatchawork .container2 > * {
+    background-color: white;
+    border-radius: 1rem;
+    border: solid black 1px;
+    overflow: hidden;
+}
+
+.container2 .img_cont {
+    margin: 0;
+}
+
+.titulo_container2 {
+    font-family: "Alegreya";
+    color: #025157;
+    font-size: 1.7rem;
+    margin: 0;
+}
+
+.pa_container2 {
+    color: #46484c;
+    font-weight: 700;
+    font-size: .9rem;
+    justify-content: start;
+}
+
+.link_cont2 {
+    color: #025157;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+.container2 .caja1 {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
