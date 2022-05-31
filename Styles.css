@@ -4,6 +4,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+
 .Estilo_titulo2 {
     color: #025157;
     font-family: Alegreya;
@@ -45,8 +46,20 @@ img {
 
 .main {
     text-align: center;
+    margin-top: 200px;
 }
+.Barra_fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+}
+.header{
+    margin: 40px 20px 0;
+    font-size: 0;
 
+}
 .header li {
     display: inline;
     margin: 0px 15px;
@@ -54,10 +67,7 @@ img {
 .header ul {
     padding: 0;
 }
-.header{
-    margin: 40px 20px 0;
-    font-size: 0;
-}
+
 .header > * {
     display: inline-block;
     font-size: 16px;
@@ -131,3 +141,57 @@ header a .Logo_matcha {
     flex: 1;
 }
 
+.Features {
+    display: grid;
+    height: 37.5rem;
+    background-color: #025157;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1FR 1fr;
+    gap: 3REM;
+    padding: 5% 10%;
+}
+
+.Features .feature_class {
+    padding: 15px 50px;
+    overflow: hidden;
+}
+
+.Features .feature_class {
+    border-radius: .5rem;
+    background-color: white;
+    height: 100%;
+    display: flex;
+}
+
+.Features .feature_class .feature_text {
+    flex: 2;
+    font-size: 20px;
+}
+.Features .feature_class .feature_text .iconillo {
+    height: 30px;
+
+}
+.Features .feature_class .feature_text .figure {
+    margin: 0;
+}
+.Features .feature_class .feature_text .url {
+    color: green;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+.Features .feature_class .feature_image {
+    flex: 1;
+}
+
+.movimiento {
+   transition: width 3s ;
+}
+
+.movimiento:hover {
+    width: 100%;
+}
+.feature_text p {
+    margin-bottom: 2rem;
+
+}
