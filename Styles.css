@@ -54,6 +54,7 @@ img {
     left: 0;
     right: 0;
     background-color: #fffbf7;
+    z-index: 1;
 }
 .header{
     margin: 40px 20px 0;
@@ -236,7 +237,7 @@ header a .Logo_matcha {
 
 .seccion_verde .seccion_izq .img {
     width: 27rem;
-    
+
 }
 
 .seccion_verde .seccion_der {
@@ -375,11 +376,52 @@ header a .Logo_matcha {
 
 
 
+@media screen and (max-width: 425px) {
+    .Barra_tareas,
+    .actions {
+        display: none;
+    }
+    .Estilo_titulo2 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .main {
+        margin-top: 130px;
+    }
+    Body {
+        
+    }
 
+    .imgstyle,
+    .imgstyle2 {
+        width: 100%;
+    }
 
-
-
-
+    .stile1,
+    .estilo2 {
+        margin: 0;
+    }
+    .Publish {
+        margin-top: 0;
+    }
+    .video_contenedor {
+        display: ;
+    }
+    .Publish {
+        flex-direction: column;
+        margin: 15px auto;
+        width: 90%;
+    }
+    .Features {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        height: fit-content;
+    }
+    .seccion_verde {
+        flex-wrap: wrap;
+        height: fit-content;
+    }
+}
 
 
 
